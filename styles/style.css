@@ -37,7 +37,7 @@ ol {
   list-style: none;
 }
 .content {
-  margin: auto;
+  margin: 0 auto;
   min-height: 534px;
   max-width: 1140px;
   display: grid;
