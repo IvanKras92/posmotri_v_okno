@@ -36,3 +36,30 @@ ul,
 ol {
   list-style: none;
 }
+.content {
+  margin: auto;
+  min-height: 534px;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: auto 400px;
+  gap: 30px;
+  justify-content: center;
+  align-items: end;
+  justify-items: center;
+}
+.search-form {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.content__list {
+  max-height: 400px;
+  overflow: scroll;
+}
+.content__details{
+  max-width: 400px;
+}
+.result__video {
+  width: 710px;
+  object-fit: cover;
+}
